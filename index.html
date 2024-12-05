@@ -3,10 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="refresh" content="0;url=https://peyotewilliams.github.io/math_club_uust/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BB%D1%83%D0%B1-%D1%83%D1%83%D0%BD%D0%B8%D1%82.html">
     <title>Перенаправление</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+        #background-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover; /* Это свойство растягивает изображение, чтобы оно покрывало всю страницу */
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+    <script>
+        window.onload = function() {
+            setTimeout(function() {
+                window.location.href = "https://peyotewilliams.github.io/math_club_uust/%D0%BC%D0%B0%D1%82%D0%B5%D0%BC%D0%B0%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B9-%D0%BA%D0%BB%D1%83%D0%B1-%D1%83%D1%83%D0%BD%D0%B8%D1%82.html";
+            }, 3000); // 3000 миллисекунд = 3 секунды
+        };
+    </script>
 </head>
 <body>
-    <p>Вы будете перенаправлены на другую страницу...</p>
+    <img id="background-image" src="logo.png" alt="Background Image">
 </body>
 </html>
